@@ -1,0 +1,18 @@
+{
+	"manifest_version":2,
+	"name":"stream mp4",
+    "description":"steam any mp4 file without downloading completely",
+    "version":"1.0",
+    "icons": {
+    	"16": "icon.png",
+    	"32": "icon.png",
+    	"64": "icon.png",
+    	"128": "icon.png"
+    },
+    "background":{
+    "scripts":["background.js"]
+    },
+   
+    "permissions":["contextMenus"]
+
+}
